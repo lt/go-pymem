@@ -24,7 +24,7 @@ Union types are backed by a `[N]byte` array with accessor methods.
 Each package is an independent Go module. Import only the one you need.
 
 ```bash
-go get github.com/lt/go-py-/linux64/py312@latest
+go get github.com/lt/go-pymem/linux64/py312@latest
 ```
 
 ## Regenerating

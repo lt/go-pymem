@@ -1,6 +1,6 @@
 #!/bin/sh
 # Initialise a minimal CPython checkout containing only Include/ and the PC/ pyconfig files needed
-# for Windows targets. repoun once before generate.sh.
+# for Windows targets. Run once before generate.sh.
 set -euo pipefail
 
 repoEPO="$(cd "$(dirname "$0")" && pwd)"
