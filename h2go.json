@@ -1,0 +1,750 @@
+{
+  "targets": [
+    {
+      "name": "py27-linux64",
+      "include_dir": "cpython-v2.7.18/Include",
+      "out_dir": "linux64/py27",
+      "package_name": "py27",
+      "module": "github.com/lt/go-pymem/linux64/py27",
+      "header_overrides": {
+        "pyconfig.h": "pyconfig_lp64_py27.h"
+      },
+      "headers": [
+        "Python.h",
+        "frameobject.h",
+        "longintrepr.h",
+        "code.h",
+        "structseq.h"
+      ],
+      "clang_args": [
+        "-isystem",
+        "/usr/lib/clang/22/include",
+        "-Wno-macro-redefined"
+      ]
+    },
+    {
+      "name": "py30-linux64",
+      "include_dir": "cpython-v3.0.1/Include",
+      "out_dir": "linux64/py30",
+      "package_name": "py30",
+      "module": "github.com/lt/go-pymem/linux64/py30",
+      "header_overrides": {
+        "pyconfig.h": "pyconfig_lp64_py3.h"
+      },
+      "headers": [
+        "Python.h",
+        "frameobject.h",
+        "code.h",
+        "structseq.h"
+      ],
+      "clang_args": [
+        "-isystem",
+        "/usr/lib/clang/22/include",
+        "-Wno-macro-redefined"
+      ]
+    },
+    {
+      "name": "py31-linux64",
+      "include_dir": "cpython-v3.1.5/Include",
+      "out_dir": "linux64/py31",
+      "package_name": "py31",
+      "module": "github.com/lt/go-pymem/linux64/py31",
+      "header_overrides": {
+        "pyconfig.h": "pyconfig_lp64_py3.h"
+      },
+      "headers": [
+        "Python.h",
+        "frameobject.h",
+        "code.h",
+        "structseq.h"
+      ],
+      "clang_args": [
+        "-isystem",
+        "/usr/lib/clang/22/include",
+        "-Wno-macro-redefined"
+      ]
+    },
+    {
+      "name": "py32-linux64",
+      "include_dir": "cpython-v3.2.6/Include",
+      "out_dir": "linux64/py32",
+      "package_name": "py32",
+      "module": "github.com/lt/go-pymem/linux64/py32",
+      "header_overrides": {
+        "pyconfig.h": "pyconfig_lp64_py3.h"
+      },
+      "headers": [
+        "Python.h",
+        "frameobject.h",
+        "code.h",
+        "structseq.h"
+      ],
+      "clang_args": [
+        "-isystem",
+        "/usr/lib/clang/22/include",
+        "-Wno-macro-redefined"
+      ]
+    },
+    {
+      "name": "py33-linux64",
+      "include_dir": "cpython-v3.3.7/Include",
+      "out_dir": "linux64/py33",
+      "package_name": "py33",
+      "module": "github.com/lt/go-pymem/linux64/py33",
+      "header_overrides": {
+        "pyconfig.h": "pyconfig_lp64_py3.h"
+      },
+      "headers": [
+        "Python.h",
+        "frameobject.h",
+        "code.h",
+        "structseq.h"
+      ],
+      "clang_args": [
+        "-isystem",
+        "/usr/lib/clang/22/include",
+        "-Wno-macro-redefined"
+      ]
+    },
+    {
+      "name": "py34-linux64",
+      "include_dir": "cpython-v3.4.10/Include",
+      "out_dir": "linux64/py34",
+      "package_name": "py34",
+      "module": "github.com/lt/go-pymem/linux64/py34",
+      "header_overrides": {
+        "pyconfig.h": "pyconfig_lp64_py3.h"
+      },
+      "headers": [
+        "Python.h",
+        "frameobject.h",
+        "code.h",
+        "structseq.h"
+      ],
+      "clang_args": [
+        "-isystem",
+        "/usr/lib/clang/22/include",
+        "-Wno-macro-redefined"
+      ]
+    },
+    {
+      "name": "py35-linux64",
+      "include_dir": "cpython-v3.5.10/Include",
+      "out_dir": "linux64/py35",
+      "package_name": "py35",
+      "module": "github.com/lt/go-pymem/linux64/py35",
+      "header_overrides": {
+        "pyconfig.h": "pyconfig_lp64_py3.h"
+      },
+      "headers": [
+        "Python.h",
+        "frameobject.h",
+        "code.h",
+        "structseq.h"
+      ],
+      "clang_args": [
+        "-isystem",
+        "/usr/lib/clang/22/include",
+        "-Wno-macro-redefined"
+      ]
+    },
+    {
+      "name": "py36-linux64",
+      "include_dir": "cpython-v3.6.15/Include",
+      "out_dir": "linux64/py36",
+      "package_name": "py36",
+      "module": "github.com/lt/go-pymem/linux64/py36",
+      "header_overrides": {
+        "pyconfig.h": "pyconfig_lp64_py3.h"
+      },
+      "headers": [
+        "Python.h",
+        "frameobject.h",
+        "code.h",
+        "structseq.h"
+      ],
+      "clang_args": [
+        "-isystem",
+        "/usr/lib/clang/22/include",
+        "-Wno-macro-redefined"
+      ]
+    },
+    {
+      "name": "py37-linux64",
+      "include_dir": "cpython-v3.7.17/Include",
+      "out_dir": "linux64/py37",
+      "package_name": "py37",
+      "module": "github.com/lt/go-pymem/linux64/py37",
+      "header_overrides": {
+        "pyconfig.h": "pyconfig_lp64_py3.h"
+      },
+      "headers": [
+        "Python.h",
+        "frameobject.h",
+        "code.h",
+        "structseq.h"
+      ],
+      "clang_args": [
+        "-isystem",
+        "/usr/lib/clang/22/include",
+        "-Wno-macro-redefined"
+      ]
+    },
+    {
+      "name": "py38-linux64",
+      "include_dir": "cpython-v3.8.20/Include",
+      "out_dir": "linux64/py38",
+      "package_name": "py38",
+      "module": "github.com/lt/go-pymem/linux64/py38",
+      "header_overrides": {
+        "pyconfig.h": "pyconfig_lp64_py3.h"
+      },
+      "headers": [
+        "Python.h",
+        "frameobject.h",
+        "code.h",
+        "structseq.h"
+      ],
+      "clang_args": [
+        "-isystem",
+        "/usr/lib/clang/22/include",
+        "-Wno-macro-redefined"
+      ]
+    },
+    {
+      "name": "py39-linux64",
+      "include_dir": "cpython-v3.9.25/Include",
+      "out_dir": "linux64/py39",
+      "package_name": "py39",
+      "module": "github.com/lt/go-pymem/linux64/py39",
+      "header_overrides": {
+        "pyconfig.h": "pyconfig_lp64_py3.h"
+      },
+      "headers": [
+        "Python.h",
+        "frameobject.h",
+        "code.h",
+        "structseq.h"
+      ],
+      "clang_args": [
+        "-isystem",
+        "/usr/lib/clang/22/include",
+        "-Wno-macro-redefined"
+      ]
+    },
+    {
+      "name": "py310-linux64",
+      "include_dir": "cpython-v3.10.20/Include",
+      "out_dir": "linux64/py310",
+      "package_name": "py310",
+      "module": "github.com/lt/go-pymem/linux64/py310",
+      "header_overrides": {
+        "pyconfig.h": "pyconfig_lp64_py3.h"
+      },
+      "headers": [
+        "Python.h",
+        "frameobject.h",
+        "code.h",
+        "structseq.h"
+      ],
+      "clang_args": [
+        "-isystem",
+        "/usr/lib/clang/22/include",
+        "-Wno-macro-redefined"
+      ]
+    },
+    {
+      "name": "py311-linux64",
+      "include_dir": "cpython-v3.11.15/Include",
+      "out_dir": "linux64/py311",
+      "package_name": "py311",
+      "module": "github.com/lt/go-pymem/linux64/py311",
+      "header_overrides": {
+        "pyconfig.h": "pyconfig_lp64_py3.h"
+      },
+      "headers": [
+        "Python.h",
+        "frameobject.h",
+        "structseq.h"
+      ],
+      "clang_args": [
+        "-isystem",
+        "/usr/lib/clang/22/include",
+        "-Wno-macro-redefined"
+      ]
+    },
+    {
+      "name": "py312-linux64",
+      "include_dir": "cpython-v3.12.13/Include",
+      "out_dir": "linux64/py312",
+      "package_name": "py312",
+      "module": "github.com/lt/go-pymem/linux64/py312",
+      "header_overrides": {
+        "pyconfig.h": "pyconfig_lp64_py3.h"
+      },
+      "headers": [
+        "Python.h",
+        "frameobject.h",
+        "structseq.h"
+      ],
+      "clang_args": [
+        "-isystem",
+        "/usr/lib/clang/22/include",
+        "-Wno-macro-redefined"
+      ]
+    },
+    {
+      "name": "py313-linux64",
+      "include_dir": "cpython-v3.13.13/Include",
+      "out_dir": "linux64/py313",
+      "package_name": "py313",
+      "module": "github.com/lt/go-pymem/linux64/py313",
+      "header_overrides": {
+        "pyconfig.h": "pyconfig_lp64_py3.h"
+      },
+      "headers": [
+        "Python.h",
+        "frameobject.h",
+        "structseq.h"
+      ],
+      "clang_args": [
+        "-isystem",
+        "/usr/lib/clang/22/include",
+        "-Wno-macro-redefined"
+      ]
+    },
+    {
+      "name": "py314-linux64",
+      "include_dir": "cpython-v3.14.5/Include",
+      "out_dir": "linux64/py314",
+      "package_name": "py314",
+      "module": "github.com/lt/go-pymem/linux64/py314",
+      "header_overrides": {
+        "pyconfig.h": "pyconfig_lp64_py3.h"
+      },
+      "headers": [
+        "Python.h",
+        "frameobject.h",
+        "structseq.h"
+      ],
+      "clang_args": [
+        "-isystem",
+        "/usr/lib/clang/22/include",
+        "-Wno-macro-redefined"
+      ]
+    },
+    {
+      "name": "py27-windows64",
+      "include_dir": "cpython-v2.7.18/Include",
+      "out_dir": "windows64/py27",
+      "package_name": "py27",
+      "module": "github.com/lt/go-pymem/windows64/py27",
+      "header_overrides": {
+        "pyconfig.h": "cpython-v2.7.18/PC/pyconfig.h"
+      },
+      "headers": [
+        "Python.h",
+        "frameobject.h",
+        "longintrepr.h",
+        "code.h",
+        "structseq.h"
+      ],
+      "clang_args": [
+        "--target=x86_64-w64-windows-gnu",
+        "-DMS_WIN64",
+        "-Wno-macro-redefined",
+        "-DIN_WINPTHREAD",
+        "-isystem",
+        "/usr/lib/clang/22/include",
+        "-isystem",
+        "/usr/x86_64-w64-mingw32/include"
+      ]
+    },
+    {
+      "name": "py30-windows64",
+      "include_dir": "cpython-v3.0.1/Include",
+      "out_dir": "windows64/py30",
+      "package_name": "py30",
+      "module": "github.com/lt/go-pymem/windows64/py30",
+      "header_overrides": {
+        "pyconfig.h": "cpython-v3.0.1/PC/pyconfig.h"
+      },
+      "headers": [
+        "Python.h",
+        "frameobject.h",
+        "code.h",
+        "structseq.h"
+      ],
+      "clang_args": [
+        "--target=x86_64-w64-windows-gnu",
+        "-DMS_WIN64",
+        "-Wno-macro-redefined",
+        "-DIN_WINPTHREAD",
+        "-isystem",
+        "/usr/lib/clang/22/include",
+        "-isystem",
+        "/usr/x86_64-w64-mingw32/include"
+      ]
+    },
+    {
+      "name": "py31-windows64",
+      "include_dir": "cpython-v3.1.5/Include",
+      "out_dir": "windows64/py31",
+      "package_name": "py31",
+      "module": "github.com/lt/go-pymem/windows64/py31",
+      "header_overrides": {
+        "pyconfig.h": "cpython-v3.1.5/PC/pyconfig.h"
+      },
+      "headers": [
+        "Python.h",
+        "frameobject.h",
+        "code.h",
+        "structseq.h"
+      ],
+      "clang_args": [
+        "--target=x86_64-w64-windows-gnu",
+        "-DMS_WIN64",
+        "-Wno-macro-redefined",
+        "-DIN_WINPTHREAD",
+        "-isystem",
+        "/usr/lib/clang/22/include",
+        "-isystem",
+        "/usr/x86_64-w64-mingw32/include"
+      ]
+    },
+    {
+      "name": "py32-windows64",
+      "include_dir": "cpython-v3.2.6/Include",
+      "out_dir": "windows64/py32",
+      "package_name": "py32",
+      "module": "github.com/lt/go-pymem/windows64/py32",
+      "header_overrides": {
+        "pyconfig.h": "cpython-v3.2.6/PC/pyconfig.h"
+      },
+      "headers": [
+        "Python.h",
+        "frameobject.h",
+        "code.h",
+        "structseq.h"
+      ],
+      "clang_args": [
+        "--target=x86_64-w64-windows-gnu",
+        "-DMS_WIN64",
+        "-Wno-macro-redefined",
+        "-DIN_WINPTHREAD",
+        "-isystem",
+        "/usr/lib/clang/22/include",
+        "-isystem",
+        "/usr/x86_64-w64-mingw32/include"
+      ]
+    },
+    {
+      "name": "py33-windows64",
+      "include_dir": "cpython-v3.3.7/Include",
+      "out_dir": "windows64/py33",
+      "package_name": "py33",
+      "module": "github.com/lt/go-pymem/windows64/py33",
+      "header_overrides": {
+        "pyconfig.h": "cpython-v3.3.7/PC/pyconfig.h"
+      },
+      "headers": [
+        "Python.h",
+        "frameobject.h",
+        "code.h",
+        "structseq.h"
+      ],
+      "clang_args": [
+        "--target=x86_64-w64-windows-gnu",
+        "-DMS_WIN64",
+        "-Wno-macro-redefined",
+        "-DIN_WINPTHREAD",
+        "-isystem",
+        "/usr/lib/clang/22/include",
+        "-isystem",
+        "/usr/x86_64-w64-mingw32/include"
+      ]
+    },
+    {
+      "name": "py34-windows64",
+      "include_dir": "cpython-v3.4.10/Include",
+      "out_dir": "windows64/py34",
+      "package_name": "py34",
+      "module": "github.com/lt/go-pymem/windows64/py34",
+      "header_overrides": {
+        "pyconfig.h": "cpython-v3.4.10/PC/pyconfig.h"
+      },
+      "headers": [
+        "Python.h",
+        "frameobject.h",
+        "code.h",
+        "structseq.h"
+      ],
+      "clang_args": [
+        "--target=x86_64-w64-windows-gnu",
+        "-DMS_WIN64",
+        "-Wno-macro-redefined",
+        "-DIN_WINPTHREAD",
+        "-isystem",
+        "/usr/lib/clang/22/include",
+        "-isystem",
+        "/usr/x86_64-w64-mingw32/include"
+      ]
+    },
+    {
+      "name": "py35-windows64",
+      "include_dir": "cpython-v3.5.10/Include",
+      "out_dir": "windows64/py35",
+      "package_name": "py35",
+      "module": "github.com/lt/go-pymem/windows64/py35",
+      "header_overrides": {
+        "pyconfig.h": "cpython-v3.5.10/PC/pyconfig.h"
+      },
+      "headers": [
+        "Python.h",
+        "frameobject.h",
+        "code.h",
+        "structseq.h"
+      ],
+      "clang_args": [
+        "--target=x86_64-w64-windows-gnu",
+        "-DMS_WIN64",
+        "-Wno-macro-redefined",
+        "-DIN_WINPTHREAD",
+        "-isystem",
+        "/usr/lib/clang/22/include",
+        "-isystem",
+        "/usr/x86_64-w64-mingw32/include"
+      ]
+    },
+    {
+      "name": "py36-windows64",
+      "include_dir": "cpython-v3.6.15/Include",
+      "out_dir": "windows64/py36",
+      "package_name": "py36",
+      "module": "github.com/lt/go-pymem/windows64/py36",
+      "header_overrides": {
+        "pyconfig.h": "cpython-v3.6.15/PC/pyconfig.h"
+      },
+      "headers": [
+        "Python.h",
+        "frameobject.h",
+        "code.h",
+        "structseq.h"
+      ],
+      "clang_args": [
+        "--target=x86_64-w64-windows-gnu",
+        "-DMS_WIN64",
+        "-Wno-macro-redefined",
+        "-DIN_WINPTHREAD",
+        "-isystem",
+        "/usr/lib/clang/22/include",
+        "-isystem",
+        "/usr/x86_64-w64-mingw32/include"
+      ]
+    },
+    {
+      "name": "py37-windows64",
+      "include_dir": "cpython-v3.7.17/Include",
+      "out_dir": "windows64/py37",
+      "package_name": "py37",
+      "module": "github.com/lt/go-pymem/windows64/py37",
+      "header_overrides": {
+        "pyconfig.h": "cpython-v3.7.17/PC/pyconfig.h"
+      },
+      "headers": [
+        "Python.h",
+        "frameobject.h",
+        "code.h",
+        "structseq.h"
+      ],
+      "clang_args": [
+        "--target=x86_64-w64-windows-gnu",
+        "-DMS_WIN64",
+        "-Wno-macro-redefined",
+        "-DIN_WINPTHREAD",
+        "-isystem",
+        "/usr/lib/clang/22/include",
+        "-isystem",
+        "/usr/x86_64-w64-mingw32/include"
+      ]
+    },
+    {
+      "name": "py38-windows64",
+      "include_dir": "cpython-v3.8.20/Include",
+      "out_dir": "windows64/py38",
+      "package_name": "py38",
+      "module": "github.com/lt/go-pymem/windows64/py38",
+      "header_overrides": {
+        "pyconfig.h": "cpython-v3.8.20/PC/pyconfig.h"
+      },
+      "headers": [
+        "Python.h",
+        "frameobject.h",
+        "code.h",
+        "structseq.h"
+      ],
+      "clang_args": [
+        "--target=x86_64-w64-windows-gnu",
+        "-DMS_WIN64",
+        "-Wno-macro-redefined",
+        "-DIN_WINPTHREAD",
+        "-isystem",
+        "/usr/lib/clang/22/include",
+        "-isystem",
+        "/usr/x86_64-w64-mingw32/include"
+      ]
+    },
+    {
+      "name": "py39-windows64",
+      "include_dir": "cpython-v3.9.25/Include",
+      "out_dir": "windows64/py39",
+      "package_name": "py39",
+      "module": "github.com/lt/go-pymem/windows64/py39",
+      "header_overrides": {
+        "pyconfig.h": "cpython-v3.9.25/PC/pyconfig.h"
+      },
+      "headers": [
+        "Python.h",
+        "frameobject.h",
+        "code.h",
+        "structseq.h"
+      ],
+      "clang_args": [
+        "--target=x86_64-w64-windows-gnu",
+        "-DMS_WIN64",
+        "-Wno-macro-redefined",
+        "-DIN_WINPTHREAD",
+        "-isystem",
+        "/usr/lib/clang/22/include",
+        "-isystem",
+        "/usr/x86_64-w64-mingw32/include"
+      ]
+    },
+    {
+      "name": "py310-windows64",
+      "include_dir": "cpython-v3.10.20/Include",
+      "out_dir": "windows64/py310",
+      "package_name": "py310",
+      "module": "github.com/lt/go-pymem/windows64/py310",
+      "header_overrides": {
+        "pyconfig.h": "cpython-v3.10.20/PC/pyconfig.h"
+      },
+      "headers": [
+        "Python.h",
+        "frameobject.h",
+        "code.h",
+        "structseq.h"
+      ],
+      "clang_args": [
+        "--target=x86_64-w64-windows-gnu",
+        "-DMS_WIN64",
+        "-Wno-macro-redefined",
+        "-DIN_WINPTHREAD",
+        "-isystem",
+        "/usr/lib/clang/22/include",
+        "-isystem",
+        "/usr/x86_64-w64-mingw32/include"
+      ]
+    },
+    {
+      "name": "py311-windows64",
+      "include_dir": "cpython-v3.11.15/Include",
+      "out_dir": "windows64/py311",
+      "package_name": "py311",
+      "module": "github.com/lt/go-pymem/windows64/py311",
+      "header_overrides": {
+        "pyconfig.h": "cpython-v3.11.15/PC/pyconfig.h"
+      },
+      "headers": [
+        "Python.h",
+        "frameobject.h",
+        "structseq.h"
+      ],
+      "clang_args": [
+        "--target=x86_64-w64-windows-gnu",
+        "-DMS_WIN64",
+        "-Wno-macro-redefined",
+        "-DIN_WINPTHREAD",
+        "-isystem",
+        "/usr/lib/clang/22/include",
+        "-isystem",
+        "/usr/x86_64-w64-mingw32/include"
+      ]
+    },
+    {
+      "name": "py312-windows64",
+      "include_dir": "cpython-v3.12.13/Include",
+      "out_dir": "windows64/py312",
+      "package_name": "py312",
+      "module": "github.com/lt/go-pymem/windows64/py312",
+      "header_overrides": {
+        "pyconfig.h": "cpython-v3.12.13/PC/pyconfig.h"
+      },
+      "headers": [
+        "Python.h",
+        "frameobject.h",
+        "structseq.h"
+      ],
+      "clang_args": [
+        "--target=x86_64-w64-windows-gnu",
+        "-DMS_WIN64",
+        "-Wno-macro-redefined",
+        "-DIN_WINPTHREAD",
+        "-isystem",
+        "/usr/lib/clang/22/include",
+        "-isystem",
+        "/usr/x86_64-w64-mingw32/include"
+      ]
+    },
+    {
+      "name": "py313-windows64",
+      "include_dir": "cpython-v3.13.13/Include",
+      "out_dir": "windows64/py313",
+      "package_name": "py313",
+      "module": "github.com/lt/go-pymem/windows64/py313",
+      "header_overrides": {
+        "pyconfig.h": "cpython-v3.13.13/PC/pyconfig.h.in"
+      },
+      "headers": [
+        "Python.h",
+        "frameobject.h",
+        "structseq.h"
+      ],
+      "clang_args": [
+        "--target=x86_64-w64-windows-gnu",
+        "-DMS_WIN64",
+        "-Wno-macro-redefined",
+        "-DIN_WINPTHREAD",
+        "-isystem",
+        "/usr/lib/clang/22/include",
+        "-isystem",
+        "/usr/x86_64-w64-mingw32/include"
+      ]
+    },
+    {
+      "name": "py314-windows64",
+      "include_dir": "cpython-v3.14.5/Include",
+      "out_dir": "windows64/py314",
+      "package_name": "py314",
+      "module": "github.com/lt/go-pymem/windows64/py314",
+      "header_overrides": {
+        "pyconfig.h": "cpython-v3.14.5/PC/pyconfig.h"
+      },
+      "headers": [
+        "Python.h",
+        "frameobject.h",
+        "structseq.h"
+      ],
+      "clang_args": [
+        "--target=x86_64-w64-windows-gnu",
+        "-DMS_WIN64",
+        "-Wno-macro-redefined",
+        "-DIN_WINPTHREAD",
+        "-isystem",
+        "/usr/lib/clang/22/include",
+        "-isystem",
+        "/usr/x86_64-w64-mingw32/include"
+      ]
+    }
+  ]
+}
